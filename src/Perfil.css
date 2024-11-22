@@ -1,0 +1,64 @@
+.perfil {
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.perfil__nombre {
+    font-size: clamp(2.3rem, 5vw, 16rem);
+    font-weight: 400;
+    color: #7A1CAC;
+}
+
+.perfil__profesion {
+    font-size: 1.7rem;
+}
+
+.perfil__info h3 {
+    color: white;
+    font-weight: 200;
+}
+
+.perfil__descripcion {
+    color: white;
+    font-weight: 200;
+    margin-top: 20px;
+}
+
+.perfil__btn__cv {
+    margin-top: 20px;
+    padding: 10px 8px;
+    border-radius: 10px;
+    border: none;
+    background-color: #7A1CAC;
+    color: white;
+    font-size: 1rem;
+}
+
+.perfil__marco__foto {
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-color: #7A1CAC;
+    box-shadow: 6 12px 0 rgba(0, 0, 0, 0.6);
+    position: absolute;
+    height: 445px;
+    width: 400px;
+    right: 15px;
+}
+
+.perfil__foto {
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-color: white;
+    z-index: 1;
+}
+
+.perfil__foto img {
+    height: 350px;
+    width: auto;
+}

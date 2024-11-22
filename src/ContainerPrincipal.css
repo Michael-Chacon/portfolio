@@ -1,8 +1,10 @@
-/* background-color: #131212; */
-/* @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@100..700&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap'); */
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
 
 .menu {
-    outline: 1px solid white;
     width: 70px;
     text-align: center;
 }
@@ -19,35 +21,31 @@
     align-items: center;
     justify-content: center;
     list-style: none;
-    gap: 10px;
+    /* gap: 10px; */
 }
 
 .menu__secciones {
     font-size: 25px;
     box-sizing: border-box;
-    padding: 8px;
+    padding: 10px 15px;
     transition: all ease 0.4s;
     cursor: pointer;
 }
 
 .menu__secciones:hover {
     background: linear-gradient(145deg, #3c3c3c, #1c1c1c);
-    border-radius: 5px;
-    outline: 1px solid gray;
-    /* color: #131212; */
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 13px;
     color: gray;
-
 }
 
 .principal {
     display: flex;
     flex-direction: column;
     width: 100%;
-    outline: 1px solid purple;
 }
 
 .principal__header {
-    outline: 1px solid white;
     width: 100%;
     height: 50px;
     color: white;
@@ -55,7 +53,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    position: static
+    /* position: static */
 }
 
 
@@ -84,14 +82,21 @@
 }
 
 .principal__secciones {
-    background: linear-gradient(145deg, #3c3c3c, #1c1c1c);
+    /* background: linear-gradient(145deg, #3c3c3c, #1c1c1c); */
+    /* background: linear-gradient(145deg, #4c2a85, #5a3d91); */
+    /* background: linear-gradient(145deg, #3c3c3c, #5a3d91); */
+    /* background: linear-gradient(145deg, #5a3d91, #e91e63); */
+    /* background: linear-gradient(130deg, #4c2a85, #d81b60); */
+    /* background: linear-gradient(145deg, #d81b60, #e91e63); */
+    background-color: #0F1014;
     height: 100%;
     border-radius: 10px;
     margin-bottom: 8px;
     margin-right: 8px;
-    /* outline: 1px solid blue; */
-    position: static;
     overflow-y: auto;
+    /* box-shadow: 0 0 10px rgba(41, 41, 41, 0.1); */
+    /* box-shadow: 0px 1px 10px #09090e; */
+    outline: 1px solid #1c1c1c;
 }
 
 .principal__secciones {
@@ -133,4 +138,6 @@
 
 .contenido {
     padding: 10px;
+    box-sizing: border-box;
+    height: 100%;
 }
