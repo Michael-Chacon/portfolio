@@ -104,8 +104,8 @@
     --scrollbar-height: 10px;
     --scrollbar-border-thickness: 0px;
     --scrollbar-border-radius: 4px;
-    --scrollbar-thumb-color: #131212;
-    --scrollbar-track-color: #AAA1A1;
+    --scrollbar-track-color: #272626;
+    --scrollbar-thumb-color: #15171C;
 }
 
 .principal__secciones::-webkit-scrollbar {

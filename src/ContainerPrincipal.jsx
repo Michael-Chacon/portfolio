@@ -3,7 +3,11 @@ import { HeaderPrincipal } from './HeaderPrincipal'
 import { Secciones } from './Secciones'
 import "./ContainerPrincipal.css"
 import "./Perfil.css"
+import "./SkillsComponent.css"
+import "./ListaProyectos.css"
 import { Perfil } from './Perfil'
+import { SkillsComponent } from './SkillsComponent'
+import { ListaProyectos } from './ListaProyectos'
 export function ContainerPrincipal(){
     return(
         <>
@@ -30,7 +34,9 @@ export function ContainerPrincipal(){
               </header>
               <section className="principal__secciones">
                 <div className="contenido">
-                  <Perfil></Perfil>
+                  {/* <Perfil></Perfil> */}
+                  {/* <SkillsComponent></SkillsComponent> */}
+                  <ListaProyectos></ListaProyectos>
                 </div>
               </section>
             </main>
