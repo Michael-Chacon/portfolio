@@ -23,6 +23,7 @@ skills {
     text-align: center;
     position: relative;
     font-weight: 200;
+    color: white;
 }
 
 .skills__block-items {
