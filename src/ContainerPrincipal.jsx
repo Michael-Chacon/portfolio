@@ -5,9 +5,11 @@ import "./ContainerPrincipal.css"
 import "./Perfil.css"
 import "./SkillsComponent.css"
 import "./ListaProyectos.css"
+import "./DetalleProyecto.css"
 import { Perfil } from './Perfil'
 import { SkillsComponent } from './SkillsComponent'
 import { ListaProyectos } from './ListaProyectos'
+import { DetalleProyecto } from './DetalleProyecto'
 export function ContainerPrincipal(){
     return(
         <>
@@ -36,7 +38,8 @@ export function ContainerPrincipal(){
                 <div className="contenido">
                   {/* <Perfil></Perfil> */}
                   {/* <SkillsComponent></SkillsComponent> */}
-                  <ListaProyectos></ListaProyectos>
+                  {/* <ListaProyectos></ListaProyectos> */}
+                  <DetalleProyecto></DetalleProyecto>
                 </div>
               </section>
             </main>

@@ -73,7 +73,7 @@
     margin: 0;
 }
 
-.proyecto__descripcion {
+.proyecto__descripcionl {
     font-size: 15px;
     color: rgb(158, 157, 157);
 }
@@ -83,7 +83,7 @@
     gap: 7px;
 }
 
-.proyecto__lenguaje {
+.proyecto__lenguajel {
     gap: 5px;
     padding: 5px;
     display: flex;
@@ -97,7 +97,7 @@
     transition: transform 0.5s ease;
 }
 
-.icono__lenguaje {
+.icono__lenguajel {
     font-size: 25px;
 }
 

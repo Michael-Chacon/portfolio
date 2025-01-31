@@ -12,7 +12,7 @@ export function ItemProyecto({img, tipo, link, nombre, descripcion, tecnologias}
                     <a href={link} className="proyecto__btnDetalles">Ver más</a>
                   </div>
                   <h3 className="proyecto__nombre">{nombre}</h3>
-                  <p className="proyecto__descripcion">{descripcion}</p>
+                  <p className="proyecto__descripcionl">{descripcion}</p>
                   <div className="proyecto__tecnologias">
                     {tecnologias?.map((tecnologia, index) => (
                       <LenguajeComponent key={index} lenguaje={tecnologia}></LenguajeComponent>

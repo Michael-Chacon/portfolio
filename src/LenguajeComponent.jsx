@@ -3,8 +3,8 @@ export function LenguajeComponent({lenguaje}){
     
     return (
         <>
-            <div className="proyecto__lenguaje">
-                <i className={`bx bxl-${lenguaje} icono__lenguaje`} ></i>
+            <div className="proyecto__lenguajel">
+                <i className={`bx bxl-${lenguaje} icono__lenguajel`} ></i>
                 <p>{lenguajeEnMayuscula}</p>
             </div>
         </>
