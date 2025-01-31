@@ -39,7 +39,16 @@ export function ContainerPrincipal(){
                   {/* <Perfil></Perfil> */}
                   {/* <SkillsComponent></SkillsComponent> */}
                   {/* <ListaProyectos></ListaProyectos> */}
-                  <DetalleProyecto></DetalleProyecto>
+                  <DetalleProyecto 
+                    nombre={"CDR System"} 
+                    tags={["Backend", "API", "CLI"]} 
+                    inicio={"12 enero 2024"} 
+                    fin={"26 febrero 2024"} 
+                    descripcion={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque officiis velit delectus aut distinctio labore sunt autem unde, beatae sed harum id earum expedita magni molestiae, ab, porro suscipit corrupti illum! Nesciunt, qui labore, ea delectus nisi porro vitae iste quo odio, sequi error. Optio unde labore excepturi, laudantium voluptatum itaque magni esse, corrupti dolores deserunt enim. Quidem, cupiditate vel!"} 
+                    repo={"#"} 
+                    URLVideo={"ham.mp4"} 
+                    lenguajes={["java", "javascript", "html5", "css3"]}>
+                  </DetalleProyecto>
                 </div>
               </section>
             </main>
