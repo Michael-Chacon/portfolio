@@ -1,5 +1,10 @@
 import { LenguajeComponent } from "./LenguajeComponent"
 export function ItemProyecto({img, tipo, link, nombre, descripcion, tecnologias}){
+  
+    const listadoLenguajes = tecnologias.map((lenguaje, index) =>
+      <LenguajeComponent key={index} lenguaje={lenguaje}></LenguajeComponent>
+    );
+
     return(
         <>
             <div className="proyecto__item">
@@ -14,9 +19,7 @@ export function ItemProyecto({img, tipo, link, nombre, descripcion, tecnologias}
                   <h3 className="proyecto__nombre">{nombre}</h3>
                   <p className="proyecto__descripcionl">{descripcion}</p>
                   <div className="proyecto__tecnologias">
-                    {tecnologias?.map((tecnologia, index) => (
-                      <LenguajeComponent key={index} lenguaje={tecnologia}></LenguajeComponent>
-                    ))}
+                    {listadoLenguajes}
                   </div>
                 </div>
               </div>
