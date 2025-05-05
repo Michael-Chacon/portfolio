@@ -1,7 +1,8 @@
-import { LenguajeComponent } from "./LenguajeComponent";
+import { LenguajeComponent } from "../../utils/LenguajeComponent";
+import "./DetalleProyecto.css"
 
-export function DetalleProyecto({nombre, tags, inicio, fin, descripcion, repo, URLVideo, lenguajes}){
-    
+export function DetalleProyecto({ nombre, tags, inicio, fin, descripcion, repo, URLVideo, lenguajes }) {
+
     const listaTags = tags?.map((tag, index) =>
         <span key={index} className="tag">{tag}</span>
     );
@@ -9,8 +10,8 @@ export function DetalleProyecto({nombre, tags, inicio, fin, descripcion, repo, U
     const listaLenguajes = lenguajes?.map((lenguaje, index) =>
         <LenguajeComponent key={index} lenguaje={lenguaje}></LenguajeComponent>
     );
-    
-    return(
+
+    return (
         <>
             <section className="proyecto">
                 <section className="proyecto__informacion">
@@ -20,18 +21,18 @@ export function DetalleProyecto({nombre, tags, inicio, fin, descripcion, repo, U
                     </div>
                     <div className="proyecto__fechas">
                         <div className="proyecto__inicio">
-                        <p>Fecha inicio</p>
-                        <span>{inicio}</span>
+                            <p>Fecha inicio</p>
+                            <span>{inicio}</span>
                         </div>
                         <div className="proyecto__fin">
-                        <p>Fecha fin</p>
-                        <span>{fin}</span>
+                            <p>Fecha fin</p>
+                            <span>{fin}</span>
                         </div>
                     </div>
                     <p className="proyecto__descripcion">
                         {descripcion}
-                        <br/>
-                        <br/>
+                        <br />
+                        <br />
                         Para ver todos los detalles lea el archivo readme.md el cual se escuentra en el repositorio de GitHub.
                     </p>
                     <a href={repo} target="_black" role="button" className="btnRepo"><i className='bx bxl-github'></i> Ver repositorio</a>
@@ -42,7 +43,7 @@ export function DetalleProyecto({nombre, tags, inicio, fin, descripcion, repo, U
                     <div className="listado__lenguajes">
                         {listaLenguajes}
                     </div>
-                </section>  
+                </section>
             </section>
         </>
     )
