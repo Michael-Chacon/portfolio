@@ -33,8 +33,8 @@ export function ContainerPrincipal() {
           <section className="principal__secciones">
             <div className="con tenido">
               {/* <Perfil></Perfil> */}
-              {/* <ListaProyectos></ListaProyectos> */}
               <SkillsComponent></SkillsComponent>
+              {/* <ListaProyectos></ListaProyectos> */}
               {/* <DetalleProyecto
                 nombre={"CDR System"}
                 tags={["Backend", "API", "CLI"]}
