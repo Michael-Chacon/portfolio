@@ -34,8 +34,8 @@ export function ContainerPrincipal() {
             <div className="con tenido">
               {/* <Perfil></Perfil> */}
               {/* <ListaProyectos></ListaProyectos> */}
-              {/* <SkillsComponent></SkillsComponent> */}
-              <DetalleProyecto
+              <SkillsComponent></SkillsComponent>
+              {/* <DetalleProyecto
                 nombre={"CDR System"}
                 tags={["Backend", "API", "CLI"]}
                 inicio={"12 enero 2024"}
@@ -44,7 +44,7 @@ export function ContainerPrincipal() {
                 repo={"#"}
                 URLVideo={"ham.mp4"}
                 lenguajes={["java", "javascript", "html5", "css3"]}>
-              </DetalleProyecto>
+              </DetalleProyecto> */}
             </div>
           </section>
         </main>
