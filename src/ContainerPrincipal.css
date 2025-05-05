@@ -44,7 +44,6 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    /* border: 1px solid yellow; */
 }
 
 .principal__header {
@@ -92,7 +91,6 @@
     /* background: linear-gradient(145deg, #d81b60, #e91e63); */
     background-color: #0F1014;
     height: 100%;
-    width: 100%;
     border-radius: 10px;
     margin-bottom: 8px;
     margin-right: 8px;

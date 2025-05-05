@@ -31,7 +31,7 @@ export function ContainerPrincipal() {
             <i className='principal__header--modo bx bx-moon' ></i>
           </header>
           <section className="principal__secciones">
-            <div className="contenido">
+            <div className="con tenido">
               {/* <Perfil></Perfil> */}
               <SkillsComponent></SkillsComponent>
               {/* <ListaProyectos></ListaProyectos> */}
