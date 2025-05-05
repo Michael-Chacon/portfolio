@@ -31,11 +31,11 @@ export function ContainerPrincipal() {
             <i className='principal__header--modo bx bx-moon' ></i>
           </header>
           <section className="principal__secciones">
-            <div className="con tenido">
+            <div className="contenido">
               {/* <Perfil></Perfil> */}
+              <SkillsComponent></SkillsComponent>
               {/* <ListaProyectos></ListaProyectos> */}
-              {/* <SkillsComponent></SkillsComponent> */}
-              <DetalleProyecto
+              {/* <DetalleProyecto
                 nombre={"CDR System"}
                 tags={["Backend", "API", "CLI"]}
                 inicio={"12 enero 2024"}
@@ -44,7 +44,7 @@ export function ContainerPrincipal() {
                 repo={"#"}
                 URLVideo={"ham.mp4"}
                 lenguajes={["java", "javascript", "html5", "css3"]}>
-              </DetalleProyecto>
+              </DetalleProyecto> */}
             </div>
           </section>
         </main>

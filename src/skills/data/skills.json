@@ -1,0 +1,109 @@
+{
+    "skills": [
+        {
+            "id": 1,
+            "src": "java.webp",
+            "alt": "logo_java",
+            "title": "Java",
+            "category": "backend"
+        },
+        {
+            "id": 2,
+            "src": "spring-boot.webp",
+            "alt": "logo Spring Boot",
+            "title": "Spring Boot",
+            "category": "backend"
+        },
+        {
+            "id": 3,
+            "src": "js.webp",
+            "alt": "logo_JavaScript",
+            "title": "JavaScript",
+            "category": "frontend"
+        },
+        {
+            "id": 4,
+            "src": "html.webp",
+            "alt": "logo HTML",
+            "title": "HTML",
+            "category": "frontend"
+        },
+        {
+            "id": 5,
+            "src": "css.webp",
+            "alt": "logo CSS",
+            "title": "CSS",
+            "category": "frontend"
+        },
+        {
+            "id": 6,
+            "src": "bootstrap.webp",
+            "alt": "logo Bootstrap",
+            "title": "Bootstrap",
+            "category": "frontend"
+        },
+        {
+            "id": 7,
+            "src": "mysql.webp",
+            "alt": "logo MySQL",
+            "title": "MySQL",
+            "category": "database"
+        },
+        {
+            "id": 8,
+            "src": "sql.webp",
+            "alt": "logo SQL",
+            "title": "SQL",
+            "category": "database"
+        },
+        {
+            "id": 9,
+            "src": "git.webp",
+            "alt": "logo git",
+            "title": "git",
+            "category": "tools"
+        },
+        {
+            "id": 10,
+            "src": "docker.webp",
+            "alt": "logo docker",
+            "title": "Docker",
+            "category": "tools"
+        },
+        {
+            "id": 11,
+            "src": "intelliJ.webp",
+            "alt": "logo IntelliJ",
+            "title": "IntelliJ",
+            "category": "tools"
+        },
+        {
+            "id": 12,
+            "src": "vs code.webp",
+            "alt": "logo vsCode",
+            "title": "VsCode",
+            "category": "tools"
+        },
+        {
+            "id": 13,
+            "src": "microservicios2.webp",
+            "alt": "logo microservicios",
+            "title": "Microservicios",
+            "category": "backend"
+        },
+        {
+            "id": 14,
+            "src": "reactjs.webp",
+            "alt": "logo React",
+            "title": "React",
+            "category": "moreTools"
+        },
+        {
+            "id": 15,
+            "src": "postgresql.webp",
+            "alt": "logo PostgreSQL",
+            "title": "PostgreSQL",
+            "category": "moreTools"
+        }
+    ]
+}
