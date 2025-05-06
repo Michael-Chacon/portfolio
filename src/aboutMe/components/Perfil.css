@@ -18,6 +18,16 @@
     font-size: 1.7rem;
 }
 
+.texto-animado {
+    white-space: nowrap;
+    display: inline;
+}
+
+.texto-animado > div {
+    display: inline;
+    text-overflow: ellipsis;
+}
+
 .perfil__info h3 {
     color: white;
     font-weight: 200;
@@ -76,7 +86,7 @@
         font-size: 1.4rem;
     }
 
-    .perfil__foto{
+    .perfil__foto {
         padding: 15px;
     }
 
@@ -87,18 +97,19 @@
     }
 
     .perfil__marco__foto {
-       display: none;
+        display: none;
     }
 
-    .perfil__info{
+    .perfil__info {
         order: 1;
     }
 
-    .perfil__nombre, .perfil__profesion{
+    .perfil__nombre,
+    .perfil__profesion {
         text-align: center;
     }
 
-    .perfil__descripcion{
+    .perfil__descripcion {
         text-align: justify;
     }
 }
