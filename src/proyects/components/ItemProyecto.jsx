@@ -1,8 +1,10 @@
+import { useId } from "react";
 import { LenguajeComponent } from "../../utils/LenguajeComponent"
 
 export function ItemProyecto({ img, tipo, link, nombre, descripcion, tecnologias }) {
+  const mapId = useId()
 
-  const listadoLenguajes = tecnologias.map((lenguaje, index) =>
+  const listadoLenguajes = tecnologias?.map((lenguaje, index) =>
     <LenguajeComponent key={index} lenguaje={lenguaje}></LenguajeComponent>
   );
 
@@ -14,7 +16,11 @@ export function ItemProyecto({ img, tipo, link, nombre, descripcion, tecnologias
         </div>
         <div className="proyecto__detalles">
           <div className="proyecto__encabezado">
-            <h5 className="proyecto__tipo">{tipo}</h5>
+            <span className="proyecto__tipo-container">
+              {tipo?.map((element, index) => (
+                <h5 key={mapId + index} className="proyecto__tipo">{element}</h5>
+              ))}
+            </span>
             <a href={link} className="proyecto__btnDetalles">Ver más</a>
           </div>
           <h3 className="proyecto__nombre">{nombre}</h3>
