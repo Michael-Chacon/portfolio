@@ -1,7 +1,8 @@
 import { useId } from "react";
 import { LenguajeComponent } from "../../utils/LenguajeComponent"
+import { Perfil } from '../../aboutMe/components/Perfil.jsx'
 
-export function ItemProyecto({ img, tipo, link, nombre, descripcion, tecnologias }) {
+export function ItemProyecto({ id, img, tipo, link, nombre, descripcion, tecnologias }) {
   const mapId = useId()
 
   const listadoLenguajes = tecnologias?.map((lenguaje, index) =>

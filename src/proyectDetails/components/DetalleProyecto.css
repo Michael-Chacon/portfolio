@@ -72,6 +72,13 @@
 
 .proyecto__nombre {
     font-weight: 300;
+    text-align: center;
+}
+
+.proyecto__tags{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .tag {
