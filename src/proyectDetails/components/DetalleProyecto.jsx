@@ -1,7 +1,9 @@
 import { LenguajeComponent } from "../../utils/LenguajeComponent";
+import { useParams } from "react-router-dom";
 import "./DetalleProyecto.css"
 
 export function DetalleProyecto({ nombre, tags, inicio, fin, descripcion, repo, URLVideo, lenguajes }) {
+    const parametro = useParams()
 
     const listaTags = tags?.map((tag, index) =>
         <span key={index} className="tag">{tag}</span>

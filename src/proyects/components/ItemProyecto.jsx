@@ -1,6 +1,7 @@
 import { useId } from "react";
 import { LenguajeComponent } from "../../utils/LenguajeComponent"
 import { Perfil } from '../../aboutMe/components/Perfil.jsx'
+import { Link } from "react-router-dom";
 
 export function ItemProyecto({ id, img, tipo, link, nombre, descripcion, tecnologias }) {
   const mapId = useId()
@@ -22,7 +23,7 @@ export function ItemProyecto({ id, img, tipo, link, nombre, descripcion, tecnolo
                 <h5 key={mapId + index} className="proyecto__tipo">{element}</h5>
               ))}
             </span>
-            <a href={link} className="proyecto__btnDetalles">Ver más</a>
+            <Link to={`/detalle/${nombre}`} className="proyecto__btnDetalles">Ver más</Link>
           </div>
           <h3 className="proyecto__nombre">{nombre}</h3>
           <p className="proyecto__descripcionl">{descripcion}</p>
