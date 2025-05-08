@@ -1,7 +1,6 @@
-import { useId } from "react";
 import { LenguajeComponent } from "../../utils/LenguajeComponent"
-import { Perfil } from '../../aboutMe/components/Perfil.jsx'
 import { Link } from "react-router-dom";
+import { useId } from "react";
 
 export function ItemProyecto({ id, img, tipo, link, nombre, descripcion, tecnologias }) {
   const mapId = useId()

@@ -1,9 +1,13 @@
 import { LenguajeComponent } from "../../utils/LenguajeComponent";
 import { useParams } from "react-router-dom";
+import { projects } from "../../proyects/data/projects.json"
 import "./DetalleProyecto.css"
 
-export function DetalleProyecto({ nombre, tags, inicio, fin, descripcion, repo, URLVideo, lenguajes }) {
+export function DetalleProyecto() {
     const parametro = useParams()
+
+    const proyectoActual = projects.filter(proyect => proyect.nombre === parametro.nombreProyecto)
+    const { tags, tecnologias: lenguajes, nombre, inicio, fin, descripcion, URL_repo: repo, URLVideo} = proyectoActual[0]
 
     const listaTags = tags?.map((tag, index) =>
         <span key={index} className="tag">{tag}</span>

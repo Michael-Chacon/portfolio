@@ -31,6 +31,7 @@
     padding: 10px 15px;
     transition: all ease 0.4s;
     cursor: pointer;
+    list-style: none;
 }
 
 .menu__secciones:hover {
