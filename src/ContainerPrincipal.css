@@ -22,7 +22,7 @@
     align-items: center;
     justify-content: center;
     list-style: none;
-    /* gap: 10px; */
+    width: 100%;
 }
 
 .menu__secciones {
@@ -31,15 +31,21 @@
     padding: 10px 15px;
     transition: all ease 0.4s;
     cursor: pointer;
-    list-style: none;
+    text-decoration: none;
+    color: white;
+    width: 100%;
 }
 
 .menu__secciones:hover {
     background: linear-gradient(145deg, #3c3c3c, #1c1c1c);
-    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.3);
-    border-radius: 13px;
     color: gray;
 }
+
+.menu__secciones.active {
+    background: linear-gradient(145deg, #141414, #202020);
+    color: #7A1CAC;
+}
+
 
 .principal {
     display: flex;
