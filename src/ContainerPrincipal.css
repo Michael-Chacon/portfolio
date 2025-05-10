@@ -58,7 +58,6 @@
 }
 
 .menu__secciones.active {
-    /* background: linear-gradient(145deg, #141414, #202020); */
     color: #7A1CAC;
 }
 
@@ -81,7 +80,8 @@
 
 
 .principal__titulo {
-    font-size: 18px;
+    font-size: 20px;
+    border-bottom: 1px solid #7A1CAC;
 }
 
 .principal__flechas {
@@ -101,7 +101,6 @@
 
 .principal__header--modo {
     margin-right: 20px;
-    font-size: 25px;
 }
 
 .principal__secciones {
@@ -117,8 +116,6 @@
     margin-bottom: 8px;
     margin-right: 8px;
     overflow-y: auto;
-    /* box-shadow: 0 0 10px rgba(41, 41, 41, 0.1); */
-    /* box-shadow: 0px 1px 10px #09090e; */
     outline: 1px solid #1c1c1c;
 }
 

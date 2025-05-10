@@ -39,7 +39,7 @@ export function ContainerPrincipal() {
         <main className="principal">
           <header className="principal__header">
             <Navegacion />
-            <p className="principal__titulo"><i className='bx bxs-hand-right'></i> {nombreRuta}</p>
+            <p className="principal__titulo"><i class='bx bx-smile'></i> {nombreRuta}</p>
             <i className='principal__header--modo bx bx-moon' ></i>
           </header>
           <section className="principal__secciones">
