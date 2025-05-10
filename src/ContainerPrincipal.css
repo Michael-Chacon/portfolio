@@ -54,6 +54,7 @@
     padding: 4px 8px !important;
     box-sizing: border-box !important;
     font-size: 12px !important;
+    z-index: 1 !important;
 }
 
 .menu__secciones.active {

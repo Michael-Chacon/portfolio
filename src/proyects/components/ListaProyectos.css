@@ -81,7 +81,8 @@
 .proyecto__descripcionl {
     font-size: 15px;
     display: -webkit-box;
-    -webkit-line-clamp: 2; /* Número de líneas a mostrar */
+    -webkit-line-clamp: 2;
+    /* Número de líneas a mostrar */
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;

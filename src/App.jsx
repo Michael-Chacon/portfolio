@@ -5,6 +5,7 @@ import { Perfil } from './aboutMe/components/Perfil'
 import { SkillsComponent } from './skills/components/SkillsComponent'
 import { ListaProyectos } from './proyects/components/ListaProyectos'
 import { DetalleProyecto } from './proyectDetails/components/DetalleProyecto'
+import { Certificate } from './certificates/components/Certificate'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path='skills' element={<SkillsComponent />} />
           <Route path='proyectos' element={<ListaProyectos />} />
           <Route path='detalle/:nombreProyecto' element={<DetalleProyecto />} />
+          <Route path='certificados' element={<Certificate />} />
         </Route>
       </Routes>
     </BrowserRouter>
