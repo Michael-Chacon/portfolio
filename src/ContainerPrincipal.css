@@ -32,7 +32,7 @@
     transition: all ease 0.4s;
     cursor: pointer;
     text-decoration: none;
-    color: white;
+    color: rgb(207, 207, 207);
     width: 100%;
 }
 
@@ -41,8 +41,15 @@
     color: gray;
 }
 
+.tooltip-personalizado {
+    border-radius: 10px !important;
+    padding: 4px 8px !important;
+    box-sizing: border-box !important;
+    font-size: 12px !important;
+}
+
 .menu__secciones.active {
-    background: linear-gradient(145deg, #141414, #202020);
+    /* background: linear-gradient(145deg, #141414, #202020); */
     color: #7A1CAC;
 }
 
@@ -61,7 +68,6 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    /* position: static */
 }
 
 
