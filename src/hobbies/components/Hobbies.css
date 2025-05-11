@@ -1,0 +1,64 @@
+.hobbies {
+    width: 80%;
+    flex-direction: row;
+    justify-self: center;
+    color: white;
+}
+
+.hobbies__container {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.hobbie__cart > h3{
+    font-weight: normal;
+}
+
+.hobbie__cart > h3 >i{
+    color: gray;
+}
+
+.hobbie__cart > p{
+    font-weight: 200;
+    margin-block: 1lh;
+}
+
+.hobbie__cart:hover{
+    transform: translateY(-.20rem);
+}
+
+hr {
+    border: 1px solid gray;
+    margin: 10px 0px;
+}
+
+.hobbie__title {
+    text-align: center;
+    color: white;
+    font-weight: 200;
+    margin: 15px 0px;
+}
+
+.gallery__image {
+    max-width: 100%;
+    margin-bottom: 0.5em;
+    display: block;
+    outline-offset: -10px;
+    border-radius: 15px;
+}
+
+.hobbies__gallery {
+    columns: 6 300px;
+    column-gap: 0.5em;
+}
+
+@media(max-width: 600px){
+    .hobbies__container{
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+}

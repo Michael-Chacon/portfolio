@@ -25,7 +25,7 @@ export function ContainerPrincipal() {
               <Tooltip id='proyectos' className='tooltip-personalizado' />
               <NavLink to="/certificados" className="menu__secciones" data-tooltip-id="certificados" data-tooltip-content="Certificados"><i class='bx bx-certification'></i></NavLink>
               <Tooltip id='certificados' className='tooltip-personalizado' place='right' />
-              <NavLink to="/" className="menu__secciones" data-tooltip-id="meGusta" data-tooltip-content="Cosas favoritas"><i className='bx bx-heart'></i></NavLink>
+              <NavLink to="/meGusta" className="menu__secciones" data-tooltip-id="meGusta" data-tooltip-content="Cosas favoritas"><i className='bx bx-heart'></i></NavLink>
               <Tooltip id='meGusta' className='tooltip-personalizado' place='right' />
             </ul>
           </div>

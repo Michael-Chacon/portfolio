@@ -6,6 +6,7 @@ import { SkillsComponent } from './skills/components/SkillsComponent'
 import { ListaProyectos } from './proyects/components/ListaProyectos'
 import { DetalleProyecto } from './proyectDetails/components/DetalleProyecto'
 import { Certificate } from './certificates/components/Certificate'
+import { Hobbies } from './hobbies/components/Hobbies'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path='proyectos' element={<ListaProyectos />} />
           <Route path='detalle/:nombreProyecto' element={<DetalleProyecto />} />
           <Route path='certificados' element={<Certificate />} />
+          <Route path='meGusta' element={<Hobbies />} />
         </Route>
       </Routes>
     </BrowserRouter>
