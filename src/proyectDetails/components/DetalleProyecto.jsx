@@ -1,13 +1,14 @@
 import { LenguajeComponent } from "../../utils/LenguajeComponent";
-import { useParams } from "react-router-dom";
 import { projects } from "../../proyects/data/projects.json"
+import { useParams } from "react-router-dom";
+import Carrusel from "./Carrusel";
 import "./DetalleProyecto.css"
 
 export function DetalleProyecto() {
     const parametro = useParams()
 
     const proyectoActual = projects.filter(proyect => proyect.nombre === parametro.nombreProyecto)
-    const { tags, tecnologias: lenguajes, nombre, inicio, fin, descripcion, URL_repo: repo, URLVideo} = proyectoActual[0]
+    const { tags, tecnologias: lenguajes, nombre, inicio, fin, descripcion, URL_repo: repo, imgProject } = proyectoActual[0]
 
     const listaTags = tags?.map((tag, index) =>
         <span key={index} className="tag">{tag}</span>
@@ -44,10 +45,13 @@ export function DetalleProyecto() {
                     <a href={repo} target="_black" role="button" className="btnRepo"><i className='bx bxl-github'></i> Ver repositorio</a>
                 </section>
                 <section className="proyecto__video">
-                    <video src={URLVideo} className="video" controls loop muted></video>
-                    <p className="warning">Como no cuento con presupuesto para alojar los proyectos en la nube, comparto un video que muestra su funcionamiento.</p>
-                    <div className="listado__lenguajes">
-                        {listaLenguajes}
+                    {/* <img src='../../cdr system.webp' className="video" alt="Foto proyecto" /> */}
+                    <Carrusel images={imgProject} />
+                    <div>
+                        <p className="warning">Como no cuento con presupuesto para desplegar los proyectos en la nube, comparto estas fotos.</p>
+                        <div className="listado__lenguajes">
+                            {listaLenguajes}
+                        </div>
                     </div>
                 </section>
             </section>

@@ -20,7 +20,11 @@
                 "css3"
             ],
             "URL_repo": "#",
-            "URLVideo": "#"
+            "URLVideo": "#",
+            "imgProject": [
+                "cdr system.webp",
+                "airlines.webp"
+            ]
         },
         {
             "id": 2,
@@ -42,7 +46,11 @@
                 "css3"
             ],
             "URL_repo": "#",
-            "URLVideo": "#"
+            "URLVideo": "#",
+            "imgProject": [
+                "cdr system.webp",
+                "airlines.webp"
+            ]
         }
     ]
 }
