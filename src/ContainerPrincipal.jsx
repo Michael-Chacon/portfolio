@@ -15,7 +15,7 @@ export function ContainerPrincipal() {
       <section className="container">
         <aside className="menu">
           <div>
-            <img className="menu__logo" src="logo.png" alt="logo portfolio Alexis" />
+            <img className="menu__logo" src="favicon.png" alt="logo portfolio Alexis" />
             <ul className="menu__opciones">
               <NavLink to="/perfil" className="menu__secciones" data-tooltip-id="perfil" data-tooltip-content="Perfil"><i className='bx bxs-user-rectangle'></i></NavLink>
               <Tooltip id='perfil' className='tooltip-personalizado' place='right' />
