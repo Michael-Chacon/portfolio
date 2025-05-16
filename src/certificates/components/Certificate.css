@@ -23,7 +23,6 @@
     object-fit: cover;
     object-position: center;
     display: block;
-    opacity: 0.8;
 }
 
 .certificate__information {

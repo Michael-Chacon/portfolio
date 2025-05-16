@@ -17,7 +17,7 @@ export function Perfil() {
         <section class="perfil__marco__foto">
         </section>
         <section class="perfil__foto">
-          <img src="foto_perfil.png" alt="" />
+          <img src="foto_perfil.webp" alt="" />
         </section>
       </section>
     </>

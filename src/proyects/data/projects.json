@@ -2,32 +2,88 @@
     "projects": [
         {
             "id": 1,
-            "img": "cdr system.webp",
+            "img": "natufrut2.webp",
             "tipo": [
                 "Backend",
-                "CLI"
+                "API REST",
+                "Frontend"
             ],
             "link": "#",
-            "nombre": "CDR System",
-            "inicio": "12 enero 2024",
-            "fin": "26 febrero 2024",
-            "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque officiis velit delectus aut distinctio labore sunt autem unde, beatae sed harum id earum expedita magni molestiae, ab, porro suscipit corrupti illum! Nesciunt, qui labore, ea delectus nisi porro vitae iste quo odio, sequi error. Optio unde labore excepturi, laudantium voluptatum itaque magni esse, corrupti dolores deserunt enim. Quidem, cupiditate vel!",
+            "nombre": "Natufrut",
+            "inicio": "06 agosto 2024",
+            "fin": "11 agosto 2024",
+            "descripcion": "Sistema integral de gestión para empresa de Productos Lácteos, encargado de la gestión de productos, clientes, pedidos, stock, gastos, etc. Implementa principios de arquitectura limpia para garantizar escalabilidad y mantenimiento eficiente. Diseñada para optimizar procesos administrativos y operativos.",
             "tecnologias": [
-                "java",
                 "spring-boot",
-                "javascript",
+                "react",
+                "mySQL",
+                "JWT",
                 "html5",
-                "css3"
+                "tailwind CSS"
             ],
-            "URL_repo": "#",
-            "URLVideo": "#",
+            "publico": false,
+            "URL_repo": "https://github.com/Michael-Chacon/Natufrut",
             "imgProject": [
-                "cdr system.webp",
-                "airlines.webp"
+                "natufrut2.webp",
+                "natufrutprivate.webp"
             ]
         },
         {
             "id": 2,
+            "img": "vendo1.webp",
+            "tipo": [
+                "Backend",
+                "API REST",
+                "Frontend"
+            ],
+            "link": "#",
+            "nombre": "Vendo - Plataforma de Ecommercedo",
+            "inicio": "06 agosto 2024",
+            "fin": "11 agosto 2024",
+            "descripcion": "Desarrollé Vendo, una aplicación de comercio electrónico orientada a la gestión eficiente de productos y pedidos. El sistema permite visualizar una lista de productos, agregar nuevos artículos, editar o eliminar productos existentes, así como consultar detalles de clientes y visualizar la lista de pedidos realizados. Este proyecto demuestra habilidades en el desarrollo de interfaces intuitivas y funcionalidades clave para el manejo de un ecommerce básico.",
+            "tecnologias": [
+                "spring-boot",
+                "javascript",
+                "mySQL",
+                "JWT",
+                "html5",
+                "css3"
+            ],
+            "publico": true,
+            "URL_repo": "https://github.com/Michael-Chacon/E-commerce-frontend",
+            "imgProject": [
+                "vendo1.webp",
+                "vendo2.webp"
+            ]
+        },
+        {
+            "id": 3,
+            "img": "cine4.webp",
+            "tipo": [
+                "Backend",
+                "RestTemplate",
+                "API REST"
+            ],
+            "link": "#",
+            "nombre": "Cinéfilo",
+            "inicio": "15 octubre 2024",
+            "fin": "En desarrollo...",
+            "descripcion": "Este proyecto consiste en la creación de una API que consume la API de TMDB para proveer información detallada sobre películas, series, actores y géneros. El objetivo es que esta API funcione como una fuente de datos para otra aplicación que voy a desarrollar. La API permitirá realizar búsquedas de películas, series, actores y géneros, y almacenar la información obtenida en la base de datos de la futura aplicación. Esta integración facilitará la gestión de contenido multimedia y proporcionará datos actualizados provenientes de TMDB para la app.",
+            "tecnologias": [
+                "spring-boot",
+                "mySQL"
+            ],
+            "publico": true,
+            "URL_repo": "https://github.com/Michael-Chacon/Cine",
+            "imgProject": [
+                "cine1.webp",
+                "cine2.webp",
+                "cine3.png",
+                "cine4.webp"
+            ]
+        },
+        {
+            "id": 4,
             "img": "airlines.webp",
             "tipo": [
                 "Backend",
@@ -37,19 +93,44 @@
             "nombre": "Airlines world",
             "inicio": "11 Agosto 2024",
             "fin": "13 Diciembre 2024",
-            "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque officiis velit delectus aut distinctio labore sunt autem unde, beatae sed harum id earum expedita magni molestiae, ab, porro suscipit corrupti illum! Nesciunt, qui labore, ea delectus nisi porro vitae iste quo odio, sequi error. Optio unde labore excepturi, laudantium voluptatum itaque magni esse, corrupti dolores deserunt enim. Quidem, cupiditate vel!",
+            "descripcion": "Vuelos Globales opera vuelos a nivel internacional y cuenta con una flota de aviones, tripulación variada, múltiples aerolíneas asociadas y una vasta red de aeropuertos y ciudades de destino. La empresa requiere una base de datos y una app robusta para gestionar todos los aspectos de su operación, desde la reserva de vuelos hasta el mantenimiento de los aviones y la administración de la tripulación.",
             "tecnologias": [
                 "java",
-                "spring-boot",
-                "javascript",
-                "html5",
-                "css3"
+                "mySQL"
             ],
-            "URL_repo": "#",
-            "URLVideo": "#",
+            "publico": true,
+            "URL_repo": "https://github.com/Michael-Chacon/airport",
             "imgProject": [
-                "cdr system.webp",
-                "airlines.webp"
+                "airlines.webp",
+                "airlines2.webp"
+            ]
+        },
+        {
+            "id": 5,
+            "img": "cdrsystem.webp",
+            "tipo": [
+                "Tesis de grado",
+                "Monolito"
+            ],
+            "link": "#",
+            "nombre": "CDR System",
+            "inicio": "4 enero 2022",
+            "fin": "08 octubre 2022",
+            "descripcion": "Se desarrolló una plataforma web implementando el patrón de diseño Modelo-VistaControlador, para la gestión académica del instituto educativo CDR, en dicha plataforma los administrativos, docentes y estudiantes pueden interactuar en tiempo real con los diferentes procesos que se llevan a cabo en la institución. Colaborando con la organización de la información con la que cuenta la institución, reduciendo el tiempo empleado al generar informes.",
+            "tecnologias": [
+                "php",
+                "mySQL",
+                "html5",
+                "css3",
+                "bootstrap"
+            ],
+            "publico": true,
+            "URL_repo": "https://github.com/Michael-Chacon/CDR",
+            "imgProject": [
+                "cdrsystem.webp",
+                "cdrsystem5.webp",
+                "cdrsystem3.webp",
+                "cdrsystem4.webp"
             ]
         }
     ]

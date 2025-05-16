@@ -2,16 +2,16 @@ import "./Hobbies.css"
 
 export function Hobbies() {
     const images = [
-        'Mari.jpg',
-        'Oreo1.jpg',
-        'Oreo2.jpg',
-        'Oreo3.jpg',
-        'Oreo4.jpg',
-        'Oreo5.jpg',
-        'Oreo6.jpg',
-        'Oreo7.jpg',
-        'Oreo8.jpg',
-        'roble.jpg',
+        'Mari.webp',
+        'Oreo1.webp',
+        'Oreo2.webp',
+        'Oreo3.webp',
+        'Oreo4.webp',
+        'Oreo5.webp',
+        'Oreo6.webp',
+        'Oreo7.webp',
+        'Oreo8.webp',
+        'roble.webp',
     ]
 
     return (
